@@ -1,0 +1,41 @@
+# Build files and directories
+cmake-build-*/
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.a
+*.lib
+
+# CLion specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Logs and debug files
+*.log
+*.tmp
+*.bak
+vgcore.*
+
+# Test outputs
+tests/*.log
+tests/*.out
+tests/*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Executables
+client/client
+server/server
