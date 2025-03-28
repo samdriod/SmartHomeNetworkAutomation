@@ -11,6 +11,9 @@ set(SERVER_SOURCES
         # Add other source files explicitly here
 )
 
+# client include directory
+include_directories(include)
+
 # Create executable
 add_executable(SmartHomeServer ${SERVER_SOURCES})
 
